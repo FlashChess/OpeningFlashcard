@@ -1,6 +1,6 @@
 {
-  "homepage": "https://amir837.github.io/flashcards",
-  "name": "flashcards",
+  "homepage": "https://flashchess.github.io/OpeningFlashcard/",
+  "name": "openingflashcard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
