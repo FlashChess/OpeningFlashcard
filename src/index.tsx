@@ -7,7 +7,7 @@ import Test from './Test';
 ReactDOM.render(
     <BrowserRouter>
       <Routes>
-        <Route path = "/openingflashcard" element = { <App /> } />
+        <Route path = "/OpeningFlashcard" element = { <App /> } />
         <Route path = "/Test" element = { <Test /> } />
       </Routes>
     </BrowserRouter>,
