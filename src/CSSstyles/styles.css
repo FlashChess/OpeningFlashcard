@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App button {
+margin-top: 20px;
+padding: 8px;
+background: #ffffff;
+color: rgb(0, 0, 0);
+border: 10;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.chessOpening {
+padding: 10px 16px;
+margin: 20px 0;
+border-bottom: 1px solid #fafafa;
+color: #161415;
+margin-bottom: 20px;
+}
+.chessOpening:hover {
+box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.descriptionBlock {
+background-color: rgba(0,0,0,0.1);
+text-align: left;
+}
+
+.leftbox {
+float:left; 
+width:30%;
+height:512px;
+}
+
+.middlebox{
+float:left; 
+width:40%;
+height:512px;
+}
+
+.rightbox{
+float:right;
+width:30%;
+height:512px;
+}
