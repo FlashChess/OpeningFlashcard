@@ -1,5 +1,4 @@
 import { useSearchParams } from "react-router-dom";
-import { setTimeout } from "timers/promises";
 import "./styles.css";
 
 export default function Redirecting() {
@@ -13,7 +12,7 @@ export default function Redirecting() {
     var turn = params.get("turn");
     var orientation = params.get("orientation");
 
-    window.location.href = LinkPart + "title=" + title + "&description=" + description + "&pgn=" + pgn + "&move=" + move + "&turn" + turn + "&orientation=" + orientation;
+    window.location.href = LinkPart + "title=" + title + "&description=" + description + "&pgn=" + pgn + "&move=" + move + "&turn=" + turn + "&orientation=" + orientation;
 
     return (
         <div className="box">
